@@ -7,14 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "console.h"
+#import "console.m"
+#import <math.h>
+
+
+int rollDice() {
+    sranddev();
+    return rand() % 5 + 1;
+}
 
 int main(int argc, const char * argv[])
 {
-
+    
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
         
     }
     return 0;
